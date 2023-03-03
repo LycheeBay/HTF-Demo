@@ -7,7 +7,7 @@ function Count(props) {
   // Define an effect that runs after every render
   useEffect(() => {
     document.title = `Count is ${count}`;
-    if (count % 10 === 0) {
+    if (count % 10 === 9) {
         //suggested by github copilot!
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank")
     }
